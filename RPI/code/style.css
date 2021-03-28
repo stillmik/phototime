@@ -1,0 +1,557 @@
+@font-face {
+    font-family: 'Gotham Rounded';
+    src: url('../images/gotham/GothamRounded-Book.otf');
+    src: url('../images/gotham/GothamRounded-Bold.otf');
+}
+    
+
+body {
+    width: 1280px;
+    height: 3595px;
+    font-family: 'Gotham Rounded';
+    margin: auto;
+    text-align: center;
+    color: #ffffff;
+}
+
+.coloredText {
+    color: black;
+}
+
+img {
+    display: flex;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+#btn12, #btn22 {
+    padding: 9px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-bottom-left-radius: 0px;
+    border-top-left-radius: 0px;
+    border-bottom-right-radius: 3px;
+    border-top-right-radius: 3px;
+}
+
+.btn, btn:hover, .btn-pic, .btn-pic:hover, .btn-pic-pic, .btn-pic-pic:hover {
+    text-align: center;
+    text-align: center;
+    border-radius: 3px;
+    text-decoration: none;
+    letter-spacing: .15em;
+    font-size: 14px;
+    padding: 15px;
+}
+.btn {
+    background: #16a085;
+    display: inline-block;
+    border: 1px solid #16a085;
+    color: white;
+    font-size: 9pt;
+    padding:0px;
+    padding-top: 18px;
+}
+
+    .btn:hover {
+        display: inline-block;
+        background: #00ff21;
+        border: 1px solid #00ff21;
+        color: #ffffff;
+        font-size: 9pt;
+        padding:0;
+        padding-top: 18px;
+    }
+
+.btn-pic {
+    background: #1abc9c;
+    border: 1px solid #1abc9c;
+    line-height: 16pt;
+    font-weight: bold;
+    padding-right: 95px;
+    border-bottom-right-radius: 0px;
+    border-top-right-radius: 0px;
+}
+
+    .btn-pic:hover {
+        background: #00ff21;
+        border: 1px solid #00ff21;
+        line-height: 16pt;
+        font-weight: bold;
+        padding-right: 95px;
+        border-bottom-right-radius: 0px;
+        border-top-right-radius: 0px;
+    }
+
+.btn-pic-pic {
+    background: #16a085;
+    border: 1px solid #16a085;
+    line-height: 16pt;
+    font-weight: bold;
+    border-bottom-left-radius: 3px;
+    border-top-left-radius: 3px;
+}
+
+    .btn-pic-pic:hover {
+        background: #00ff21;
+        border: 1px solid #00ff21;
+        line-height: 16pt;
+        font-weight: bold;
+        border-bottom-left-radius: 3px;
+        border-top-left-radius: 3px;
+    }
+
+.form {
+    display: inline-block;
+}
+
+h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+}
+
+#header {
+    width: 1280px;
+    height: 128px;
+}
+
+
+    #header .home, .photoapp, .design, .download {
+        text-align: left;
+        font-size: 12pt;
+        letter-spacing: .15em;
+        margin-top: 70px;
+    }
+
+        #header:hover .home:hover, .photoapp:hover, .design:hover, .download:hover {
+            color: aqua;
+        }
+
+    #header .home {
+        margin-left: 15px;
+        grid-column: 5/7;
+    }
+
+    #header .photoapp {
+        margin-left: 12px;
+        grid-column: 7/9;
+    }
+
+    #header .logo {
+        display:block;
+        margin-left: 32px;
+        margin-top: 40px;
+        grid-column: 10/12;
+    }
+
+   
+
+    #header .design {
+        margin-left: 55px;
+        grid-column: 12/14;
+    }
+
+
+    #header .download {
+        margin-left: 15px;
+        grid-column: 15/18;
+    }
+
+    #header .bg-image {
+        position: absolute;
+        background: #333 url('../images/top128.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover; /*cover whole block with saving scale*/
+        width: 1280px;
+        height: 128px;
+        z-index: -1;
+    }
+
+#first {
+    width: 1280px;
+    height: 617px;
+}
+
+    #first .content-wrap {
+        margin-top: 10em;
+        grid-column: 7/15;
+    }
+
+        #first .content-wrap > h1 {
+            font-size: 27pt;
+            margin-top: 45px;
+            margin-left: 5px;
+            letter-spacing: .15em;
+        }
+
+        #first .content-wrap > p {
+            font-size: 12pt;
+            margin-top: 5px;
+            margin-left: 0px;
+            letter-spacing: .15em;
+        }
+
+        #first .content-wrap > a {
+            width: 166px;
+            height: 33px;
+            margin-top: 28px;
+        }
+
+    #first .img-refs {
+        grid-column: 10/12;
+        display: flex;
+        justify-content: space-around;
+        align-items: flex-end;
+    }
+
+        #first .img-refs > a {
+            margin-bottom: 25px;
+        }
+
+
+    #first .bg-image {
+        position: absolute;
+        background: #333 url('../images/bot617.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover; /*cover whole block with saving scale*/
+        width: 1280px;
+        height: 617px;
+        z-index: -1;
+    }
+
+
+#second {
+    background: #f5f6f7;
+    width: 1280px;
+    height: 494px;
+    color: #16a085;
+}
+
+    #second .content-wrap {
+        margin-top: 100px;
+        grid-column: 3/10;
+        text-align: left;
+    }
+
+        #second .content-wrap > p {
+            font-size: 9pt;
+            line-height: 18pt;
+            letter-spacing: .15em;
+            margin-top: 40px;
+            margin-bottom: 50px;
+        }
+
+    #second .iPhone {
+        position: relative;
+        top: 86px;
+        grid-column: 10/19;
+        z-index: 0;
+    }
+
+    #second .btn {
+        width: 192px;
+        height: 33px;
+    }
+
+    #second .content-wrap > h1 {
+        font-size: 14pt;
+        line-height: 18pt;
+        letter-spacing: .15em;
+    }
+
+
+#third {
+    width: 1280px;
+    height: 558px;
+    color: #16a085;
+}
+
+    #third .scrolls a {
+        color: black;
+    }
+
+    #third .phonePage {
+        color: black;
+    }
+
+    #third .flatPhone {
+        margin-top: 120px;
+        grid-column: 2/8;
+        z-index: 1;
+    }
+
+    #third .content-wrap {
+        margin-top: 140px;
+        grid-column: 13/20;
+        text-align: left;
+        z-index: 1;
+    }
+
+        #third .content-wrap > h2 {
+            font-size: 14pt;
+            letter-spacing: .15em;
+            margin-bottom: 45px;
+        }
+
+        #third .content-wrap > p {
+            font-size: 9pt;
+            line-height: 18pt;
+            letter-spacing: .15em;
+            margin-top: 40px;
+            margin-bottom: 50px;
+        }
+
+        #third .content-wrap a.btn {
+            width: 192px;
+            height: 33px;
+        }
+
+        #third .content-wrap .phonePage {
+            font-size: 8pt;
+            margin-top: 30px;
+        }
+
+
+    #third .scrolls {
+        color: black;
+        font-size: 20px;
+        display: flex;
+        align-items: flex-end;
+        z-index: 1;
+        right: 100px;
+        grid-column: 13;
+    }
+
+        #third .scrolls > a:hover {
+            color: #808080;
+        }
+
+    #third .bg-image {
+        position: absolute;
+        background: #333 url('../images/third.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover; /*cover whole block with saving scale*/
+        width: 1280px;
+        height: 558px;
+        z-index: 0;
+    }
+
+
+
+#fourd {
+    background: #f5f6f7;
+    width: 1280px;
+    height: 483px;
+    color: #000000;
+}
+
+    #fourd a {
+        color: black;
+    }
+
+    #fourd .bg-image {
+        position: absolute;
+        background: #333 url('../images/fourd.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover; /*cover whole block with saving scale*/
+        width: 1280px;
+        height: 483px;
+        z-index: 1;
+    }
+
+    #fourd .scrolls {
+        font-size: 20px;
+        display: flex;
+        align-items: flex-end;
+        z-index: 2;
+        right: 100px;
+        grid-row: 1/2;
+        grid-column: 7/8;
+    }
+
+        #fourd .scrolls > a:hover {
+            color: #808080;
+        }
+
+    #fourd .card {
+        margin-top: 40px;
+        z-index: 2;
+        grid-row: 2/3;
+        grid-column: 3/6;
+        color: #373737
+    }
+
+        #fourd .card .card-content > h3 {
+            margin-top: 20px;
+            font-size: 12pt;
+            line-height: 18pt;
+            letter-spacing: .15em;
+        }
+
+        #fourd .card .card-content > p {
+            margin-top: 20px;
+            font-size: 7pt;
+            letter-spacing: .15em;
+        }
+
+    #fourd .photo {
+        display: block;
+        margin: auto;
+    }
+
+    #fourd .truck {
+        z-index: 2;
+        grid-row: 2/3;
+        grid-column: 7/13;
+    }
+
+    #fourd .leaves {
+        z-index: 2;
+        grid-row: 2/3;
+        grid-column: 13/19;
+    }
+
+#fifth {
+    width: 1280px;
+    height: 790px;
+}
+
+    #fifth .bg-image {
+        position: absolute;
+        background: #333 url('../images/fifth.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover; /*cover whole block with saving scale*/
+        width: 1280px;
+        height: 790px;
+        z-index: -1;
+    }
+
+    #fifth .content-wrap {
+        width: 550px;
+        padding: 305px;
+        padding-left: 380px;
+        grid-column: 7/15;
+    }
+
+        #fifth .content-wrap > h3 {
+            font-size: 18pt;
+            letter-spacing: .15em;
+            margin-top: 40px;
+            margin-bottom: 30px;
+        }
+
+        #fifth .content-wrap .form > a {
+            padding: 20px;
+            padding-bottom: 13px;
+        }
+
+        #fifth .content-wrap .form {
+            display: flex;
+            justify-content: center;
+        }
+
+    #fifth .input {
+        font-family: 'Gotham Rounded';
+        font-size: 18px;
+        letter-spacing: .15em;
+        border: none;
+        border-radius: 3px;
+        width: 280px;
+        height: 60px;
+    }
+
+
+
+/*7-15*/
+
+#sixth {
+    background: #f5f6f7;
+    width: 1280px;
+    height: 483px;
+    color: #373737;
+}
+
+    #sixth .wrap-content {
+        margin: 0;
+        margin-top: 90px;
+        grid-column: 4/18;
+        height: 40px;
+    }
+
+        #sixth .wrap-content > h2 {
+            font-size: 20px;
+            font-weight: bold;
+            letter-spacing: .15em;
+            margin: 10px;
+        }
+
+        #sixth .wrap-content > p {
+            font-size: 12px;
+            letter-spacing: .15em;
+            line-height: 16pt;
+            text-transform: uppercase;
+        }
+
+    #sixth .btn1 {
+        display: flex;
+        height: 50px;
+        letter-spacing: -6px;
+        grid-column: 6/11;
+    }
+
+    #sixth .btn2 {
+        display: flex;
+        height: 50px;
+        letter-spacing: -6px;
+        grid-column: 11/16;
+    }
+
+
+#footer {
+    background: #ffffff;
+    width: 1280px;
+    height: 131px;
+    color: #000000;
+}
+
+    #footer .text {
+        color: #000000;
+    }
+
+    #footer .text:hover {
+        color: #808080;
+    }
+
+    #footer .content {
+        margin-top: 40px;
+        text-align: left;
+        grid-column: 3/10;
+    }
+
+        #footer .content > p {
+            padding-top: 15px;
+        }
+
+    #footer .gPhoto {
+        margin-top: 40px;
+        grid-column: 18/20;
+    }
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(20,1fr);
+}
+
+.grid-row {
+    display: grid;
+    grid-template-rows: 1fr 4fr;
+    grid-template-columns: repeat(20,1fr);
+}
